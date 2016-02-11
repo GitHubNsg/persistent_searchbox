@@ -466,6 +466,7 @@ public class SearchBox extends RelativeLayout {
 	public void micClick() {
 		if (!isMic) {
 			setSearchString("");
+			clearResults();
 		} else {
 			startVoiceRecognition();
 		}
