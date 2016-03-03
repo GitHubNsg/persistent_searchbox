@@ -255,6 +255,11 @@ public class SearchBox extends RelativeLayout {
 		}
 		return false;
 	}
+
+	public void setHint(String hint, int color) {
+		this.search.setHint(hint);
+		this.search.setHintTextColor(color);
+	}
 	
 	/***
 	 * Reveal the searchbox from a menu item. Specify the menu item id and pass the activity so the item can be found
