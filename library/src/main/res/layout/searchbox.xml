@@ -55,9 +55,11 @@
                 android:layout_marginLeft="54dp"
                 android:background="@null"
                 android:ems="10"
-                android:imeOptions="actionSearch"
-                android:singleLine="true"
+                android:ellipsize="end"
+                android:maxLines="1"
                 android:textColor="#212121"
+                android:singleLine="true"
+                android:imeOptions="actionSearch"
                 android:visibility="gone">
 
                 <requestFocus/>
