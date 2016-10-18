@@ -359,7 +359,7 @@ public class SearchBox extends RelativeLayout {
 	public void toggleSearch() {
 		if (searchOpen) {
 			if (TextUtils.isEmpty(getSearchText())) {
-				//setLogoTextInt(logoText);
+				setLogoTextInt(logoText);
 			}
 			closeSearch();
 		} else {
@@ -855,7 +855,7 @@ public class SearchBox extends RelativeLayout {
             this.drawerLogo.setVisibility(View.VISIBLE);
         }
 		this.logo.setVisibility(View.GONE);
-		this.search.setVisibility(View.GONE);
+		//this.search.setVisibility(View.GONE);
 		this.results.setVisibility(View.GONE);
 		if (tint != null && rootLayout != null) {
 			rootLayout.removeView(tint);

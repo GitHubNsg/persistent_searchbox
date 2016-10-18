@@ -54,7 +54,6 @@
                     android:ems="10"
                     android:textColor="#212121"
                     android:ellipsize="end"
-                    android:hint="sdfdssadasdasdasdasdfdFsf"
                     android:singleLine="true"
                     android:imeOptions="actionSearch"
                     android:visibility="visible" >
